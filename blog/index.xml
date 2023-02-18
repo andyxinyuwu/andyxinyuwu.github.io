@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Xinyu Wu</title>
-    <link>https://xinyuwu.github.io/blog/</link>
+    <link>https://xinyuwu.xyz/blog/</link>
     <description>Recent content in Blogs on Xinyu Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2023 18:48:18 -0500</lastBuildDate><atom:link href="https://xinyuwu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Feb 2023 18:48:18 -0500</lastBuildDate><atom:link href="https://xinyuwu.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fast</title>
-      <link>https://xinyuwu.github.io/blog/fast/</link>
+      <link>https://xinyuwu.xyz/blog/fast/</link>
       <pubDate>Fri, 17 Feb 2023 18:48:18 -0500</pubDate>
       
-      <guid>https://xinyuwu.github.io/blog/fast/</guid>
+      <guid>https://xinyuwu.xyz/blog/fast/</guid>
       <description>Being fast is the key to build something new. If you have a startup idea, build it within a weekend time. If you have a feature to launch, build it within one day. If you want to learn a new language, learn the most basic 200 words within 2 weeks and start using them. If you want to build a personal website, build it within one hour. If you want to write a blog, finish it within 30 minutes.</description>
     </item>
     
