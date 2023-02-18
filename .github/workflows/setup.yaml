@@ -1,0 +1,7 @@
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Copy SSL certificate
+      run: |
+        cp ${{ secrets.SSL_CERTIFICATE }} ./certificate.crt
