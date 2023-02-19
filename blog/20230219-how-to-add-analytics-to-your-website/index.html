@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>How to Add Analytics to Your Website | Xinyu Wu</title>
+<meta name="title" content="How to Add Analytics to Your Website" />
+<meta name="description" content="After you have your personal website ready, you might wonder how many people have visited your website and where they are. Here are the steps you need to add analytics to your website.
+Step 1: Setup Google Analytics  Create an account at google analytics Go to Admin -&gt; Property -&gt; Property Settings to create a property Go to Admin -&gt; Property -&gt; Data Streams to create a stream  You will get a Google Tracking Code that looks like &ldquo;G-XXXXXXXXXX&rdquo;" />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="How to Add Analytics to Your Website" />
+<meta property="og:description" content="After you have your personal website ready, you might wonder how many people have visited your website and where they are. Here are the steps you need to add analytics to your website.
+Step 1: Setup Google Analytics  Create an account at google analytics Go to Admin -&gt; Property -&gt; Property Settings to create a property Go to Admin -&gt; Property -&gt; Data Streams to create a stream  You will get a Google Tracking Code that looks like &ldquo;G-XXXXXXXXXX&rdquo;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xinyuwu.xyz/blog/20230219-how-to-add-analytics-to-your-website/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-02-19T16:17:42-05:00" />
+<meta property="article:modified_time" content="2023-02-19T16:17:42-05:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to Add Analytics to Your Website"/>
+<meta name="twitter:description" content="After you have your personal website ready, you might wonder how many people have visited your website and where they are. Here are the steps you need to add analytics to your website.
+Step 1: Setup Google Analytics  Create an account at google analytics Go to Admin -&gt; Property -&gt; Property Settings to create a property Go to Admin -&gt; Property -&gt; Data Streams to create a stream  You will get a Google Tracking Code that looks like &ldquo;G-XXXXXXXXXX&rdquo;"/>
+
+
+
+<meta itemprop="name" content="How to Add Analytics to Your Website">
+<meta itemprop="description" content="After you have your personal website ready, you might wonder how many people have visited your website and where they are. Here are the steps you need to add analytics to your website.
+Step 1: Setup Google Analytics  Create an account at google analytics Go to Admin -&gt; Property -&gt; Property Settings to create a property Go to Admin -&gt; Property -&gt; Data Streams to create a stream  You will get a Google Tracking Code that looks like &ldquo;G-XXXXXXXXXX&rdquo;"><meta itemprop="datePublished" content="2023-02-19T16:17:42-05:00" />
+<meta itemprop="dateModified" content="2023-02-19T16:17:42-05:00" />
+<meta itemprop="wordCount" content="225">
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-649QMBQG52"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-649QMBQG52');
+  </script>
+
+
+<a href="/" class="title">
+  <h2>Xinyu Wu</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>How to Add Analytics to Your Website</h1>
+<p>
+  <i>
+    <time datetime='2023-02-19' pubdate>
+      19 Feb, 2023
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>After you have your personal website ready, you might wonder how many people have visited your website and where they are. Here are the steps you need to add analytics to your website.</p>
+<h3 id="step-1-setup-google-analytics">Step 1: Setup Google Analytics</h3>
+<ol>
+<li>Create an account at <a href="https://analytics.google.com">google analytics</a></li>
+<li>Go to Admin -&gt; Property -&gt; Property Settings to create a property</li>
+<li>Go to Admin -&gt; Property -&gt; Data Streams to create a stream</li>
+</ol>
+<p>You will get a Google Tracking Code that looks like &ldquo;G-XXXXXXXXXX&rdquo;</p>
+<h3 id="step-2-add-google-tracking-code-to-your-website">Step 2: Add Google Tracking Code to Your Website</h3>
+<p>If you are using Hugo, it&rsquo;s simple.</p>
+<ol>
+<li>Open config.toml, add the follow code</li>
+</ol>
+<pre tabindex="0"><code>[params.analytics]
+  measurement_id = &#34;G-649QMBQG52&#34;
+</code></pre><ol start="2">
+<li>Copy your Hugo Theme&rsquo;s layouts/partials/header.html to your project&rsquo;s layouts/partials/header.html and add the following code</li>
+</ol>
+<pre tabindex="0"><code>{{ with .Site.Params.analytics.measurement_id }}
+  &lt;script async src=&#34;https://www.googletagmanager.com/gtag/js?id={{ . }}&#34;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+    gtag(&#39;config&#39;, &#39;{{ . }}&#39;);
+  &lt;/script&gt;
+{{ end }}
+</code></pre><ol start="3">
+<li>Generate new website using command <code>hugo</code> and commit your change to remote repo</li>
+</ol>
+<h3 id="step-3-test">Step 3: Test</h3>
+<p>Now if you visit your website, you should be able to see it in your google analytic&rsquo;s home page:
+<img src="/images/20230219-how-to-add-analytics-to-your-website/google.png" alt="setting"></p>
+<p>Now we see the visit in the dashboard! Good job!</p>
+<p>One caveat: if you are using any kind of adblocker, it may prevent google tracking code from working properly. Try disable the adblocker and test again.</p>
+<p>Enjoy the analytics for your website!</p>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>

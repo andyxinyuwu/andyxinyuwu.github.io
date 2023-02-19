@@ -6,13 +6,23 @@
     <description>Recent content in Blogs on Xinyu Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Feb 2023 15:06:57 -0500</lastBuildDate><atom:link href="https://xinyuwu.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Feb 2023 16:17:42 -0500</lastBuildDate><atom:link href="https://xinyuwu.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Add Analytics to Your Website</title>
+      <link>https://xinyuwu.xyz/blog/20230219-how-to-add-analytics-to-your-website/</link>
+      <pubDate>Sun, 19 Feb 2023 16:17:42 -0500</pubDate>
+      
+      <guid>https://xinyuwu.xyz/blog/20230219-how-to-add-analytics-to-your-website/</guid>
+      <description>After you have your personal website ready, you might wonder how many people have visited your website and where they are. Here are the steps you need to add analytics to your website.
+Step 1: Setup Google Analytics  Create an account at google analytics Go to Admin -&amp;gt; Property -&amp;gt; Property Settings to create a property Go to Admin -&amp;gt; Property -&amp;gt; Data Streams to create a stream  You will get a Google Tracking Code that looks like &amp;ldquo;G-XXXXXXXXXX&amp;rdquo;</description>
+    </item>
+    
     <item>
       <title>How to Add Custom Domain For Your Github Page</title>
-      <link>https://xinyuwu.xyz/blog/how-to-add-custom-domain/</link>
+      <link>https://xinyuwu.xyz/blog/20230219-how-to-add-custom-domain/</link>
       <pubDate>Sun, 19 Feb 2023 15:06:57 -0500</pubDate>
       
-      <guid>https://xinyuwu.xyz/blog/how-to-add-custom-domain/</guid>
+      <guid>https://xinyuwu.xyz/blog/20230219-how-to-add-custom-domain/</guid>
       <description>Step 1: Buy a custom domain you like. You could use services like Godaddy.
 Step 2: Add DNS record for your custom domain Add these 4 type A DNS record to point to github pages
 Then add this type CNAME DNS record to point to your github pages
@@ -22,10 +32,10 @@ Step 3: Add custom domain in your Github Page repo Go to settings and select Pag
     
     <item>
       <title>Fast</title>
-      <link>https://xinyuwu.xyz/blog/fast/</link>
+      <link>https://xinyuwu.xyz/blog/20230217-fast/</link>
       <pubDate>Fri, 17 Feb 2023 18:48:18 -0500</pubDate>
       
-      <guid>https://xinyuwu.xyz/blog/fast/</guid>
+      <guid>https://xinyuwu.xyz/blog/20230217-fast/</guid>
       <description>Being fast is the key to build something new. If you have a startup idea, build it within a weekend time. If you have a feature to launch, build it within one day. If you want to learn a new language, learn the most basic 200 words within 2 weeks and start using them. If you want to build a personal website, build it within one hour. If you want to write a blog, finish it within 30 minutes.</description>
     </item>
     
