@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on Xinyu Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Feb 2023 16:17:42 -0500</lastBuildDate><atom:link href="https://xinyuwu.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Feb 2023 12:37:20 -0500</lastBuildDate><atom:link href="https://xinyuwu.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Twitter, Mastodon and Nostr</title>
+      <link>https://xinyuwu.xyz/blog/20230220-twitter-mastodon-nostr/</link>
+      <pubDate>Mon, 20 Feb 2023 12:37:20 -0500</pubDate>
+      
+      <guid>https://xinyuwu.xyz/blog/20230220-twitter-mastodon-nostr/</guid>
+      <description>Recently, there has been a lot of discussion regarding the problems with Twitter and the alternative platforms that aim to solve them. In this post, we will explore the main issues people have with Twitter and how its alternatives attempt to address these problems.
+Twitter&amp;rsquo;s problems The primary issue with Twitter is censorship. As people increasingly rely on social networks like Twitter and Facebook for communication and news, Twitter has become a prominent platform for people to voice their opinions.</description>
+    </item>
+    
     <item>
       <title>How to Add Analytics to Your Website</title>
       <link>https://xinyuwu.xyz/blog/20230219-how-to-add-analytics-to-your-website/</link>

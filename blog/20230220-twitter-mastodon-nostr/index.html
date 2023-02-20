@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Twitter, Mastodon and Nostr | Xinyu Wu</title>
+<meta name="title" content="Twitter, Mastodon and Nostr" />
+<meta name="description" content="Recently, there has been a lot of discussion regarding the problems with Twitter and the alternative platforms that aim to solve them. In this post, we will explore the main issues people have with Twitter and how its alternatives attempt to address these problems.
+Twitter&rsquo;s problems The primary issue with Twitter is censorship. As people increasingly rely on social networks like Twitter and Facebook for communication and news, Twitter has become a prominent platform for people to voice their opinions." />
+<meta name="keywords" content="technology," />
+
+
+<meta property="og:title" content="Twitter, Mastodon and Nostr" />
+<meta property="og:description" content="Recently, there has been a lot of discussion regarding the problems with Twitter and the alternative platforms that aim to solve them. In this post, we will explore the main issues people have with Twitter and how its alternatives attempt to address these problems.
+Twitter&rsquo;s problems The primary issue with Twitter is censorship. As people increasingly rely on social networks like Twitter and Facebook for communication and news, Twitter has become a prominent platform for people to voice their opinions." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xinyuwu.xyz/blog/20230220-twitter-mastodon-nostr/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-02-20T12:37:20-05:00" />
+<meta property="article:modified_time" content="2023-02-20T12:37:20-05:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Twitter, Mastodon and Nostr"/>
+<meta name="twitter:description" content="Recently, there has been a lot of discussion regarding the problems with Twitter and the alternative platforms that aim to solve them. In this post, we will explore the main issues people have with Twitter and how its alternatives attempt to address these problems.
+Twitter&rsquo;s problems The primary issue with Twitter is censorship. As people increasingly rely on social networks like Twitter and Facebook for communication and news, Twitter has become a prominent platform for people to voice their opinions."/>
+
+
+
+<meta itemprop="name" content="Twitter, Mastodon and Nostr">
+<meta itemprop="description" content="Recently, there has been a lot of discussion regarding the problems with Twitter and the alternative platforms that aim to solve them. In this post, we will explore the main issues people have with Twitter and how its alternatives attempt to address these problems.
+Twitter&rsquo;s problems The primary issue with Twitter is censorship. As people increasingly rely on social networks like Twitter and Facebook for communication and news, Twitter has become a prominent platform for people to voice their opinions."><meta itemprop="datePublished" content="2023-02-20T12:37:20-05:00" />
+<meta itemprop="dateModified" content="2023-02-20T12:37:20-05:00" />
+<meta itemprop="wordCount" content="685">
+<meta itemprop="keywords" content="technology," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-649QMBQG52"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-649QMBQG52');
+  </script>
+
+
+<a href="/" class="title">
+  <h2>Xinyu Wu</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Twitter, Mastodon and Nostr</h1>
+<p>
+  <i>
+    <time datetime='2023-02-20' pubdate>
+      20 Feb, 2023
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>Recently, there has been a lot of discussion regarding the problems with Twitter and the alternative platforms that aim to solve them. In this post, we will explore the main issues people have with Twitter and how its alternatives attempt to address these problems.</p>
+<h3 id="twitters-problems">Twitter&rsquo;s problems</h3>
+<p>The primary issue with Twitter is censorship. As people increasingly rely on social networks like Twitter and Facebook for communication and news, Twitter has become a prominent platform for people to voice their opinions. However, after the platform banned former US president, the debate over whether big tech companies should remain neutral has become more contentious. This has led to increased tension as more people block each other on Twitter regarding different topics.</p>
+<p>One reason Twitter could not remain completely neutral is that it was a public company that generates the majority of its revenue from ads. If the platform is filled with hostile content or spam, companies will not want to advertise on it. Therefore, Twitter has to regulate its content and ban bot users. One solution to this issue is to change the business model and not rely on ads for revenue. Elon Musk attempted to do this after taking over the company by making it a private company and moving towards a subscription model. However, this has not been entirely successful, as some high-profile individuals have decided to leave the platform despite an increase in daily active users.</p>
+<h3 id="mastodons-solution">Mastodon&rsquo;s solution</h3>
+<p>Compared to Twitter&rsquo;s centralized platform, Mastodon is a decentralized platform without any central authority controlling it. Mastodon has multiple servers, known as instances, which are independently operated by different individuals or organizations. This makes it less vulnerable to censorship or shutdown and gives users more control over their data. Additionally, Mastodon allows instance administrators to set their own moderation policies and rules, enabling users to find and join instances that align with their values and interests. Mastodon and Nostr are both protocols, which means that generating revenue and meeting Wall Street&rsquo;s quarterly expectations are not their primary concerns. As a result, Mastodon does not have advertising, which means that users do not have to worry about their data being collected or sold to advertisers.</p>
+<h3 id="mastodons-problem">Mastodon&rsquo;s problem</h3>
+<p>Nostr&rsquo;s <a href="https://github.com/nostr-protocol/nostr#the-problem-with-mastodon-and-similar-programs">github page</a> listed a few problems with Mastodon that it aims to solve. One of the primary issues is that, even though there is no central authority, server owners can still ban users. Although users can migrate to another server, migration between servers does not work in an adversarial environment as all followers are lost. Moreover, there is concern that users will concentrate on a few &ldquo;cool domains&rdquo; due to a lack of incentives to run numerous servers, which would ultimately give control to a single user (the server owner).</p>
+<h3 id="nostrs-solution">Nostr&rsquo;s solution</h3>
+<p>Nostr is a decentralized platform that does not have a central platform like Twitter or instances like Mastodon. It consists of two components: clients and relays. Every user runs a client, and anyone can run a relay. Nostr solves the censorship problem by allowing users to freely publish their data to any relays, and migration between relays is straightforward. Relays could charge fees (economic incentives) to ensure censorship resistance and prevent spam by allowing only publicly verified accounts to send messages.</p>
+<h3 id="nostrs-problem">Nostr&rsquo;s problem?</h3>
+<p>To communicate with another person on Nostr, both individuals need to connect to the same relay. This raises questions about hot users and hot relays. As people gather at hot relays over time to communicate more easily, the owner of the relay becomes the single point of control. Additionally, the spam problem cannot be entirely solved as it is against the spirit of censorship resistance. If the content is full of spam, it will be a bad user experience and a bad product.</p>
+<h3 id="summary">Summary</h3>
+<p>Decentralization exists on a spectrum, ranging from centralized to semi-decentralized to fully decentralized. Each point on the spectrum has its own tradeoffs and challenges, which can affect the user experience in different ways. While it&rsquo;s difficult to predict the future of social media and its various models, it&rsquo;s certainly exciting to see the ongoing development and experimentation in this space.</p>
+
+</content>
+<p>
+  
+  <a href="https://xinyuwu.xyz/tags/technology/">#technology</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>

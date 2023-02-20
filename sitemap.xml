@@ -3,11 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xinyuwu.xyz/</loc>
-    <lastmod>2023-02-19T16:17:42-05:00</lastmod>
+    <lastmod>2023-02-20T12:37:20-05:00</lastmod>
     <priority>0</priority>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/</loc>
-    <lastmod>2023-02-19T16:17:42-05:00</lastmod>
+    <lastmod>2023-02-20T12:37:20-05:00</lastmod>
+  </url><url>
+    <loc>https://xinyuwu.xyz/tags/</loc>
+    <lastmod>2023-02-20T12:37:20-05:00</lastmod>
+  </url><url>
+    <loc>https://xinyuwu.xyz/tags/technology/</loc>
+    <lastmod>2023-02-20T12:37:20-05:00</lastmod>
+  </url><url>
+    <loc>https://xinyuwu.xyz/blog/20230220-twitter-mastodon-nostr/</loc>
+    <lastmod>2023-02-20T12:37:20-05:00</lastmod>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/20230219-how-to-add-analytics-to-your-website/</loc>
     <lastmod>2023-02-19T16:17:42-05:00</lastmod>
@@ -19,7 +28,5 @@
     <lastmod>2023-02-17T18:48:18-05:00</lastmod>
   </url><url>
     <loc>https://xinyuwu.xyz/categories/</loc>
-  </url><url>
-    <loc>https://xinyuwu.xyz/tags/</loc>
   </url>
 </urlset>
