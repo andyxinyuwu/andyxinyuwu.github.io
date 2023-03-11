@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Why did SVB Fail | Xinyu Wu</title>
+<meta name="title" content="Why did SVB Fail" />
+<meta name="description" content="There are numerous news and posts covering Silicon Valley Bank situation. This post aims to explain the core of the issue in a clear question and answer way.
+Q: Why did SVB Fail?
+A: Because of bank run.
+Q: How could bank run cause such a big problem in 2023 after FDIC are introduced?
+A: FDIC insures up to $250000 of every deposit account. SVB has a unique business that services startups in Silicon Valley, so majority of its client has a number in their account much larger than $250000." />
+<meta name="keywords" content="economics," />
+
+
+<meta property="og:title" content="Why did SVB Fail" />
+<meta property="og:description" content="There are numerous news and posts covering Silicon Valley Bank situation. This post aims to explain the core of the issue in a clear question and answer way.
+Q: Why did SVB Fail?
+A: Because of bank run.
+Q: How could bank run cause such a big problem in 2023 after FDIC are introduced?
+A: FDIC insures up to $250000 of every deposit account. SVB has a unique business that services startups in Silicon Valley, so majority of its client has a number in their account much larger than $250000." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xinyuwu.xyz/blog/20230311-why-svb-fail/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-03-11T09:52:34-05:00" />
+<meta property="article:modified_time" content="2023-03-11T09:52:34-05:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Why did SVB Fail"/>
+<meta name="twitter:description" content="There are numerous news and posts covering Silicon Valley Bank situation. This post aims to explain the core of the issue in a clear question and answer way.
+Q: Why did SVB Fail?
+A: Because of bank run.
+Q: How could bank run cause such a big problem in 2023 after FDIC are introduced?
+A: FDIC insures up to $250000 of every deposit account. SVB has a unique business that services startups in Silicon Valley, so majority of its client has a number in their account much larger than $250000."/>
+
+
+
+<meta itemprop="name" content="Why did SVB Fail">
+<meta itemprop="description" content="There are numerous news and posts covering Silicon Valley Bank situation. This post aims to explain the core of the issue in a clear question and answer way.
+Q: Why did SVB Fail?
+A: Because of bank run.
+Q: How could bank run cause such a big problem in 2023 after FDIC are introduced?
+A: FDIC insures up to $250000 of every deposit account. SVB has a unique business that services startups in Silicon Valley, so majority of its client has a number in their account much larger than $250000."><meta itemprop="datePublished" content="2023-03-11T09:52:34-05:00" />
+<meta itemprop="dateModified" content="2023-03-11T09:52:34-05:00" />
+<meta itemprop="wordCount" content="358">
+<meta itemprop="keywords" content="economics," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-649QMBQG52"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-649QMBQG52');
+  </script>
+
+
+<a href="/" class="title">
+  <h2>Xinyu Wu</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Why did SVB Fail</h1>
+<p>
+  <i>
+    <time datetime='2023-03-11' pubdate>
+      11 Mar, 2023
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>There are numerous news and posts covering Silicon Valley Bank situation. This post aims to explain the core of the issue in a clear question and answer way.</p>
+<p><strong>Q: Why did SVB Fail?</strong></p>
+<p>A: Because of <a href="https://en.wikipedia.org/wiki/Bank_run">bank run</a>.</p>
+<p><strong>Q: How could bank run cause such a big problem in 2023 after FDIC are introduced?</strong></p>
+<p>A: FDIC insures up to $250000 of every deposit account. SVB has a unique business that services startups in Silicon Valley, so majority of its client has a number in their account much larger than $250000. In fact, 93% of SVB’s deposits were not FDIC insured while on average 50% of deposits are FDIC insured.</p>
+<p><strong>Q: What triggered the bank run?</strong></p>
+<p>A: The concerns on the bank’s solvency, which means that people worry that the bank’s assets may not cover its liabilities.</p>
+<p><strong>Q: Why are there concerns on the banks solvency?</strong></p>
+<p>A: Recent interest rate hike. The hike has caused two main problems for SVB. First is that SVB invested in a lot bonds and loans. When interest rate increases, the value of these assets falls. Second is that it’s been harder and harder to raise VC money recently due to the interest rate hike. This caused startups to withdraw money to cover their operational costs while no new money is injected into the bank. Usually a bank rarely encounters a situation where people withdraw money at the same time, but SVB is in such a unique position that majority of its clients are tech companies and VCs who made this situation possible.</p>
+<p><strong>Q: What are the implications for the financial system?</strong></p>
+<p>A: As explained above, the situation is made possible only when the clients are mostly in high risk industry and the majority of money are not FDIC insured. Therefore, majority banks won&rsquo;t have this issue and the government will work on preventing the risk from spreading to other areas. The next step is to sell its illiquid assets in a way that doesn’t make the depositors loss too much. It takes some time and startups might suffer in the short term, but it is not likely be an overall financial system issue.</p>
+
+</content>
+<p>
+  
+  <a href="https://xinyuwu.xyz/tags/economics/">#economics</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>
