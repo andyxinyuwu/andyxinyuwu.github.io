@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on Xinyu Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Mar 2023 09:52:34 -0500</lastBuildDate><atom:link href="https://xinyuwu.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 08:58:55 -0400</lastBuildDate><atom:link href="https://xinyuwu.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Most Important Ability in the Era of chatGPT</title>
+      <link>https://xinyuwu.xyz/blog/20230312-ability-in-the-era-of-gpt/</link>
+      <pubDate>Sun, 12 Mar 2023 08:58:55 -0400</pubDate>
+      
+      <guid>https://xinyuwu.xyz/blog/20230312-ability-in-the-era-of-gpt/</guid>
+      <description>Since openAI release the GPT related model, more and more companies have integrated their services, including Microsoft (Bing), Notion, startups like Tome, etc. In the foreseeable future, the internet will be flooded with AI-generated (or partially generated) contents.
+What’s more, since the model itself is trained on the data from the internet, it becomes a self reinforcing feedback loop. Any small issues will be magnified. Biased opinions, speculations, rumours, manipulative promotions will become common.</description>
+    </item>
+    
     <item>
       <title>Why did SVB Fall</title>
       <link>https://xinyuwu.xyz/blog/20230311-why-svb-fail/</link>
