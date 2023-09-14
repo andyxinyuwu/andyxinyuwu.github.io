@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>How Does USDC Work | Xinyu Wu</title>
+<meta name="title" content="How Does USDC Work" />
+<meta name="description" content="Fifteen years since the inception of the Bitcoin whitepaper, the search for concrete, real-world applications of blockchain technology continues. While the potential for Bitcoin to challenge the USD as the global settlement layer is still up for debate, stablecoins like USDC have emerged as a notable application. Given its prominence, it&rsquo;s crucial to discuss USDC&rsquo;s mechanics, the challenges it addresses, and potential associated risks.
+How Does USDC Work? The process of converting USD to USDC can be broken down into several steps:" />
+<meta name="keywords" content="economics,technology," />
+
+
+<meta property="og:title" content="How Does USDC Work" />
+<meta property="og:description" content="Fifteen years since the inception of the Bitcoin whitepaper, the search for concrete, real-world applications of blockchain technology continues. While the potential for Bitcoin to challenge the USD as the global settlement layer is still up for debate, stablecoins like USDC have emerged as a notable application. Given its prominence, it&rsquo;s crucial to discuss USDC&rsquo;s mechanics, the challenges it addresses, and potential associated risks.
+How Does USDC Work? The process of converting USD to USDC can be broken down into several steps:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xinyuwu.xyz/blog/20230913-how-does-usdc-work/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-09-13T19:33:36-04:00" />
+<meta property="article:modified_time" content="2023-09-13T19:33:36-04:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How Does USDC Work"/>
+<meta name="twitter:description" content="Fifteen years since the inception of the Bitcoin whitepaper, the search for concrete, real-world applications of blockchain technology continues. While the potential for Bitcoin to challenge the USD as the global settlement layer is still up for debate, stablecoins like USDC have emerged as a notable application. Given its prominence, it&rsquo;s crucial to discuss USDC&rsquo;s mechanics, the challenges it addresses, and potential associated risks.
+How Does USDC Work? The process of converting USD to USDC can be broken down into several steps:"/>
+
+
+
+<meta itemprop="name" content="How Does USDC Work">
+<meta itemprop="description" content="Fifteen years since the inception of the Bitcoin whitepaper, the search for concrete, real-world applications of blockchain technology continues. While the potential for Bitcoin to challenge the USD as the global settlement layer is still up for debate, stablecoins like USDC have emerged as a notable application. Given its prominence, it&rsquo;s crucial to discuss USDC&rsquo;s mechanics, the challenges it addresses, and potential associated risks.
+How Does USDC Work? The process of converting USD to USDC can be broken down into several steps:"><meta itemprop="datePublished" content="2023-09-13T19:33:36-04:00" />
+<meta itemprop="dateModified" content="2023-09-13T19:33:36-04:00" />
+<meta itemprop="wordCount" content="484">
+<meta itemprop="keywords" content="economics,technology," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-649QMBQG52"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-649QMBQG52');
+  </script>
+
+
+<a href="/" class="title">
+  <h2>Xinyu Wu</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>How Does USDC Work</h1>
+<p>
+  <i>
+    <time datetime='2023-09-13' pubdate>
+      13 Sep, 2023
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>Fifteen years since the inception of the Bitcoin whitepaper, the search for concrete, real-world applications of blockchain technology continues. While the potential for Bitcoin to challenge the USD as the global settlement layer is still up for debate, stablecoins like USDC have emerged as a notable application. Given its prominence, it&rsquo;s crucial to discuss USDC&rsquo;s mechanics, the challenges it addresses, and potential associated risks.</p>
+<h3 id="how-does-usdc-work">How Does USDC Work?</h3>
+<p>The process of converting USD to USDC can be broken down into several steps:</p>
+<ol>
+<li>Request: An individual or entity—typically an authorized partner like a cryptocurrency exchange—deposits a specific USD amount with the issuer (e.g., Circle).</li>
+<li>Verification: The issuer then verifies this deposit, ensuring it complies with all regulatory prerequisites.</li>
+<li>Minting: Following verification, the issuer initiates a blockchain transaction, creating (aka minting) an equivalent amount of USDC tokens. This involves sending a transaction on the Blockchain (Ethereum, Solana etc) that increases the total supply of USDC by the requested amount</li>
+<li>Delivery: The freshly minted USDC is sent to the blockchain address specified by the requester.</li>
+</ol>
+<p>It&rsquo;s worth noting that USDC assures a 1:1 peg with the USD, a contrast to traditional banking&rsquo;s fractional reserve system.</p>
+<h3 id="what-challenges-does-usdc-address">What Challenges Does USDC Address?</h3>
+<p>Within the crypto realm, USDC bolsters trading liquidity, aids in yield farming, and serves as crypto lending collateral. However, these utilities often appear circular and self referencing.</p>
+<p>The most compelling application of USDC emerges in developing nations. Many of these countries grapple with rampant inflation and face challenges of currency devaluation, sometimes intentionally, as part of the deal to secure external financing from IMF and World Bank. Moreover, a large percentage of their populations remain unbanked or lack access to foreign currencies like the USD. USDC offers a resilient store of value, accessible to anyone with a mobile device. In an era where the USD reigns as a reserve currency, holding it (in its digital form) may offer citizens of developing countries a protection against drastic asset depreciation. For those without direct access to USD in the developing countries, avenues to acquire USDC include:</p>
+<ol>
+<li>Cryptocurrency exchanges offering BTC/local currency and BTC/USDC trading pairs.</li>
+<li>Peer-to-peer transactions in local communities.</li>
+<li>Remittances: With many individuals from developing countries now residing in developed nations, digital remittances via mobile applications present a viable option.</li>
+</ol>
+<h3 id="risk-analysis-of-usdc">Risk Analysis of USDC</h3>
+<p>The major risk associated with USDC is that it is issued by a centralized entity, which is contrary to the decentralized ethos of blockchain and cryptocurrecies. Those entities could be a single point of failure because of the regulatory risks. Moreover, although in theory there should be a 1:1 backup for the USDC from its issuer, there are still risks of this company getting into insolvency due to unexpected market situations like the traditional banking industry.</p>
+<p>Nevertheless, given the real-world solutions USDC offers, as previously mentioned, its demand will remain robust until blockchain can genuinely challenge for the status of a global reserve currency.</p>
+
+</content>
+<p>
+  
+  <a href="https://xinyuwu.xyz/tags/economics/">#economics</a>
+  
+  <a href="https://xinyuwu.xyz/tags/technology/">#technology</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>

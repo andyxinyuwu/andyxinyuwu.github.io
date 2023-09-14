@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on Xinyu Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jun 2023 19:17:34 -0400</lastBuildDate><atom:link href="https://xinyuwu.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Sep 2023 19:33:36 -0400</lastBuildDate><atom:link href="https://xinyuwu.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Does USDC Work</title>
+      <link>https://xinyuwu.xyz/blog/20230913-how-does-usdc-work/</link>
+      <pubDate>Wed, 13 Sep 2023 19:33:36 -0400</pubDate>
+      
+      <guid>https://xinyuwu.xyz/blog/20230913-how-does-usdc-work/</guid>
+      <description>Fifteen years since the inception of the Bitcoin whitepaper, the search for concrete, real-world applications of blockchain technology continues. While the potential for Bitcoin to challenge the USD as the global settlement layer is still up for debate, stablecoins like USDC have emerged as a notable application. Given its prominence, it&amp;rsquo;s crucial to discuss USDC&amp;rsquo;s mechanics, the challenges it addresses, and potential associated risks.
+How Does USDC Work? The process of converting USD to USDC can be broken down into several steps:</description>
+    </item>
+    
     <item>
       <title>How to Be Confident</title>
       <link>https://xinyuwu.xyz/blog/20230616-how-to-be-confident/</link>

@@ -3,11 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xinyuwu.xyz/</loc>
-    <lastmod>2023-06-16T19:17:34-04:00</lastmod>
+    <lastmod>2023-09-13T19:33:36-04:00</lastmod>
     <priority>0</priority>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/</loc>
-    <lastmod>2023-06-16T19:17:34-04:00</lastmod>
+    <lastmod>2023-09-13T19:33:36-04:00</lastmod>
+  </url><url>
+    <loc>https://xinyuwu.xyz/tags/economics/</loc>
+    <lastmod>2023-09-13T19:33:36-04:00</lastmod>
+  </url><url>
+    <loc>https://xinyuwu.xyz/blog/20230913-how-does-usdc-work/</loc>
+    <lastmod>2023-09-13T19:33:36-04:00</lastmod>
+  </url><url>
+    <loc>https://xinyuwu.xyz/tags/</loc>
+    <lastmod>2023-09-13T19:33:36-04:00</lastmod>
+  </url><url>
+    <loc>https://xinyuwu.xyz/tags/technology/</loc>
+    <lastmod>2023-09-13T19:33:36-04:00</lastmod>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/20230616-how-to-be-confident/</loc>
     <lastmod>2023-06-16T19:17:34-04:00</lastmod>
@@ -18,17 +30,11 @@
     <loc>https://xinyuwu.xyz/blog/20230611-how-to-praise/</loc>
     <lastmod>2023-06-11T10:23:24-04:00</lastmod>
   </url><url>
-    <loc>https://xinyuwu.xyz/tags/</loc>
-    <lastmod>2023-06-11T10:23:24-04:00</lastmod>
-  </url><url>
     <loc>https://xinyuwu.xyz/blog/20230610-understand-consumerism/</loc>
     <lastmod>2023-06-10T09:12:40-04:00</lastmod>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/20230603-how-to-think-clearly-1/</loc>
     <lastmod>2023-06-02T21:55:51-04:00</lastmod>
-  </url><url>
-    <loc>https://xinyuwu.xyz/tags/economics/</loc>
-    <lastmod>2023-05-27T20:18:17-04:00</lastmod>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/20230527-europe-lesson/</loc>
     <lastmod>2023-05-27T20:18:17-04:00</lastmod>
@@ -52,9 +58,6 @@
     <lastmod>2023-04-05T23:32:07-04:00</lastmod>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/20230328-ai-concerns/</loc>
-    <lastmod>2023-03-28T20:56:21-04:00</lastmod>
-  </url><url>
-    <loc>https://xinyuwu.xyz/tags/technology/</loc>
     <lastmod>2023-03-28T20:56:21-04:00</lastmod>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/20230324-beginning-of-a-new-era/</loc>
