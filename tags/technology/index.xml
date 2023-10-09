@@ -6,7 +6,17 @@
     <description>Recent content in technology on Xinyu Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Sep 2023 19:33:36 -0400</lastBuildDate><atom:link href="https://xinyuwu.xyz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Oct 2023 18:25:02 -0400</lastBuildDate><atom:link href="https://xinyuwu.xyz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>StyleCraft</title>
+      <link>https://xinyuwu.xyz/blog/20231009-style-craft/</link>
+      <pubDate>Mon, 09 Oct 2023 18:25:02 -0400</pubDate>
+      
+      <guid>https://xinyuwu.xyz/blog/20231009-style-craft/</guid>
+      <description>&amp;ldquo;Element of Style&amp;rdquo; is a classic guide for writing non-fiction. The author emphasizes clear and concise writing to ensure readers can easily understand the writer&amp;rsquo;s ideas.
+While the book is helpful, it takes years of intentional practice to effectively implement the author&amp;rsquo;s guidance. With the advent of Gen AI, however, we now have the potential to input the author&amp;rsquo;s instructions into a simple prompt and use it to revise articles. Inspired by this idea, I have created a tool called StyleCraft.</description>
+    </item>
+    
     <item>
       <title>How Does USDC Work</title>
       <link>https://xinyuwu.xyz/blog/20230913-how-does-usdc-work/</link>
