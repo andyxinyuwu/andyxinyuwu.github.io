@@ -3,11 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xinyuwu.xyz/</loc>
-    <lastmod>2024-01-09T21:47:10-05:00</lastmod>
+    <lastmod>2024-08-26T19:03:01-04:00</lastmod>
     <priority>0</priority>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/</loc>
-    <lastmod>2024-01-09T21:47:10-05:00</lastmod>
+    <lastmod>2024-08-26T19:03:01-04:00</lastmod>
+  </url><url>
+    <loc>https://xinyuwu.xyz/tags/startup/</loc>
+    <lastmod>2024-08-26T19:03:01-04:00</lastmod>
+  </url><url>
+    <loc>https://xinyuwu.xyz/tags/</loc>
+    <lastmod>2024-08-26T19:03:01-04:00</lastmod>
+  </url><url>
+    <loc>https://xinyuwu.xyz/tags/technology/</loc>
+    <lastmod>2024-08-26T19:03:01-04:00</lastmod>
+  </url><url>
+    <loc>https://xinyuwu.xyz/blog/20240826-innovators-dillema/</loc>
+    <lastmod>2024-08-26T19:03:01-04:00</lastmod>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/20240109-dance-with-the-world/</loc>
     <lastmod>2024-01-09T21:47:10-05:00</lastmod>
@@ -18,13 +30,7 @@
     <loc>https://xinyuwu.xyz/tags/philosophy/</loc>
     <lastmod>2024-01-09T21:47:10-05:00</lastmod>
   </url><url>
-    <loc>https://xinyuwu.xyz/tags/</loc>
-    <lastmod>2024-01-09T21:47:10-05:00</lastmod>
-  </url><url>
     <loc>https://xinyuwu.xyz/blog/20231009-style-craft/</loc>
-    <lastmod>2023-10-09T18:25:02-04:00</lastmod>
-  </url><url>
-    <loc>https://xinyuwu.xyz/tags/technology/</loc>
     <lastmod>2023-10-09T18:25:02-04:00</lastmod>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/20231001-global-inequality/</loc>
@@ -86,9 +92,6 @@
   </url><url>
     <loc>https://xinyuwu.xyz/blog/20230310-should-you-make-others-like-you/</loc>
     <lastmod>2023-03-10T07:18:38-05:00</lastmod>
-  </url><url>
-    <loc>https://xinyuwu.xyz/tags/startup/</loc>
-    <lastmod>2023-03-05T15:07:26-05:00</lastmod>
   </url><url>
     <loc>https://xinyuwu.xyz/blog/20230305-understanding-business/</loc>
     <lastmod>2023-03-05T15:07:26-05:00</lastmod>
