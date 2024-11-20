@@ -6,7 +6,17 @@
     <description>Recent content on Xinyu Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Aug 2024 19:03:01 -0400</lastBuildDate><atom:link href="https://xinyuwu.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Nov 2024 23:51:34 -0500</lastBuildDate><atom:link href="https://xinyuwu.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bluesky</title>
+      <link>https://xinyuwu.xyz/blog/20241119-bluesky/</link>
+      <pubDate>Tue, 19 Nov 2024 23:51:34 -0500</pubDate>
+      
+      <guid>https://xinyuwu.xyz/blog/20241119-bluesky/</guid>
+      <description>Recently a X competitor, Bluesky, has surpassed 20M users. They developed a new protocol called Authenticated Transfer Protocol (AT Protocol), aiming to solve the problems with X.
+The problem with X  Centralized platform can ban users and all their history data cannot be recovered Centralized platform control the content moderation system (what can be shown, and how they will be shown in your timeline)  How Bluesky solve this problem  Bluesky is built on top of AT Protocol and multiple platforms can implement the same protocol.</description>
+    </item>
+    
     <item>
       <title>The Innovator&#39;s Dilemma: A Startup&#39;s View</title>
       <link>https://xinyuwu.xyz/blog/20240826-innovators-dillema/</link>
